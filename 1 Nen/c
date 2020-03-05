@@ -1,0 +1,42 @@
+//
+//  test2.c
+//  MinhDev
+//
+//  Created by Hoang Anh on 6/4/19.
+//  Copyright © 2019 Hoang Anh. All rights reserved.
+//
+
+#include <stdio.h>
+#include<string.h>
+#define total 4
+typedef struct game{
+    char name[25];
+    int old;
+    int score[6];
+} game;
+void nhapnguoi(int n, game a[])
+{
+    int i;
+    for(i=0;i<n;i++)
+    {
+        //while(getchar()!='\n');
+        printf("\nMoi nhap thong tin nguoi choi thu %d:\n",i+1);
+        printf("Ho ten: "); gets(a[i].name);
+        printf("Tuoi: "); scanf("%d",&a[i].old);
+    }
+    printf("\nDanh sach nguoi choi:\n");
+    printf("%-25s%-6s\n","Ho va ten","Tuoi");
+    for(i=0;i<n;i++)
+        printf("%-25s%-6d\n",a[i].name,a[i].old);
+}
+int main()
+{
+    game person[total];
+    int n = 3, i;
+    nhapnguoi(n, person);
+    for(i=0;i<n;i++)
+        printf("%-25s%-6d\n",person[i].name,person[i].old);
+    return 0;
+}
+
+

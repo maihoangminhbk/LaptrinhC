@@ -1,0 +1,5 @@
+Line	linh	8.000000
+Minh	minh12	9.000000
+yy	yycy	12.000000
+rara	yyra	3.000000
+Admin	admin	0.000000

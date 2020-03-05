@@ -1,0 +1,4 @@
+Hello;Xin Chào
+Sad;Buồn 
+Cry;Khóc
+Good Morning;Chào buổi sáng 

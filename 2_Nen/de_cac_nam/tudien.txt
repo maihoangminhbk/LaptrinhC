@@ -1,0 +1,17 @@
+hello xin_chao
+bye tam_biet
+good_morning chao_buoi_sang
+happy vui_ve
+sad buon
+congratulation chuc_mung
+welcome chao_mung
+university truong_dai_hoc
+school truong_hoc
+grandmother ba
+grandfather ong
+mother me
+father bo
+sister chi_em
+brother anh_em
+say noi
+sack cai_bao

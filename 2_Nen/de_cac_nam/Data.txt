@@ -1,0 +1,4 @@
+google	tim kiem
+hello	xin chao
+name	ten
+sorry	xin loi

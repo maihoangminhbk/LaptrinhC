@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B004D5D23AD173300E4DF9C /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B004D5C23AD173300E4DF9C /* stack.c */; };
+		5B02668E238E70EC001A7CB2 /* dang_nhap.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B02668D238E70EC001A7CB2 /* dang_nhap.c */; };
+		5B031287237D734800E7024F /* sap_xep_chen.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B031286237D734800E7024F /* sap_xep_chen.c */; };
+		5B04109723901EEE0076E326 /* bai_test_giua_ki.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B04109623901EEE0076E326 /* bai_test_giua_ki.c */; };
+		5B08FBD2239118E0006691EA /* Dau_vo.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B08FBD1239118E0006691EA /* Dau_vo.c */; };
+		5B08FBD4239126B9006691EA /* MAI_HOANG_MINH-20184151.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B08FBD3239126B9006691EA /* MAI_HOANG_MINH-20184151.c */; };
+		5B0D33E923A37C70009ED34D /* Ham_Bam.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D33E823A37C70009ED34D /* Ham_Bam.c */; };
+		5B0D4E2622425F2E002606D5 /* string.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D4E2522425F2E002606D5 /* string.c */; };
+		5B0D4E2822428688002606D5 /* delete space.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D4E2722428688002606D5 /* delete space.c */; };
+		5B0D9DB523C819CD008260B8 /* tu_dien_20184151.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D9DB423C819CD008260B8 /* tu_dien_20184151.c */; };
+		5B10116B22958DC2005201C9 /* bai tap 2.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B10116A22958DC2005201C9 /* bai tap 2.c */; };
+		5B135DB422463AF400C3063D /* string2.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B135DB322463AF400C3063D /* string2.c */; };
+		5B135DB6224684C000C3063D /* string3.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B135DB5224684C000C3063D /* string3.c */; };
+		5B16A40E2249029F00845489 /* test 2.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B16A40D2249029F00845489 /* test 2.c */; };
+		5B1846502249DA5D00EDAC02 /* bai giua ki.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B18464F2249DA5D00EDAC02 /* bai giua ki.c */; };
+		5B1B081123C5CE8B008EB64B /* dau_vo2.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B081023C5CE8B008EB64B /* dau_vo2.c */; };
+		5B1B081323C62B36008EB64B /* de_cuong.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B1B081223C62B36008EB64B /* de_cuong.c */; };
+		5B1DB8BC23B0FDF900319CAB /* Tu_dien_Anh_Viet.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DB8BB23B0FDF900319CAB /* Tu_dien_Anh_Viet.c */; };
+		5B211B9423464165002C523D /* test2_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B211B9323464165002C523D /* test2_file.c */; };
+		5B211B96234644D5002C523D /* test 3.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B211B95234644D5002C523D /* test 3.c */; };
+		5B2A39F5234DE59300DAC659 /* danh sach noi don 2.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A39F3234DE59300DAC659 /* danh sach noi don 2.c */; };
+		5B388D2B22AA55080079E61D /* de2018.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B388D2A22AA55080079E61D /* de2018.c */; };
+		5B3CF9C0227E7AEE003640BD /* con tro 2.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B3CF9BF227E7AEE003640BD /* con tro 2.c */; };
+		5B48CB032397F4DA00277F09 /* merge_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B48CB022397F4DA00277F09 /* merge_sort.c */; };
+		5B48CB05239803E400277F09 /* quick_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B48CB04239803E400277F09 /* quick_sort.c */; };
+		5B4BEF5122A7B29200C7E8C0 /* bai tap bonus.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B4BEF5022A7B29200C7E8C0 /* bai tap bonus.c */; };
+		5B4DDE1A23ADB08600944979 /* quan_li_ket_qua_bong_da.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DDE1923ADB08600944979 /* quan_li_ket_qua_bong_da.c */; };
+		5B50A58D2292B382005F275E /* tach ten.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B50A58C2292B382005F275E /* tach ten.c */; };
+		5B50A58F2292B7E8005F275E /* mang cac xau.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B50A58E2292B7E8005F275E /* mang cac xau.c */; };
+		5B50A5912292BA4C005F275E /* thay ki tu bang khoang trong.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B50A5902292BA4C005F275E /* thay ki tu bang khoang trong.c */; };
+		5B50A5962292F053005F275E /* bai 1.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B50A5952292F053005F275E /* bai 1.c */; };
+		5B5222792357ECB100B914F0 /* *Stack_tinhbieuthuc.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B5222782357ECB100B914F0 /* *Stack_tinhbieuthuc.c */; };
+		5B5247C1224126CF001634F2 /* array and pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B5247C0224126CF001634F2 /* array and pointer.c */; };
+		5B5258472345F66800882CA5 /* test_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B5258462345F66800882CA5 /* test_1.cpp */; };
+		5B560D6A23C4CC3D00066445 /* ban_hang.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B560D6923C4CC3D00066445 /* ban_hang.c */; };
+		5B570F852359BAE00020A1A5 /* tim_kiem_nhi_phan.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B570F842359BAE00020A1A5 /* tim_kiem_nhi_phan.c */; };
+		5B5895B5237652080096656A /* cay_nhi_phan_cai_tien.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B5895B4237652080096656A /* cay_nhi_phan_cai_tien.c */; };
+		5B6051CE2245314C00CBABCB /* tam giac pascal.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B6051CD2245314C00CBABCB /* tam giac pascal.c */; };
+		5B60BBFA23A3D6E40037AE72 /* link_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B60BBF923A3D6E40037AE72 /* link_list.c */; };
+		5B643D6C226D3C67009CD9E6 /* bai tap cuoi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B643D6B226D3C67009CD9E6 /* bai tap cuoi.c */; };
+		5B647668229951AD0000D39A /* bai test.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B647667229951AD0000D39A /* bai test.c */; };
+		5B64766B22997BD40000D39A /* bai tap 1.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B64766A22997BD40000D39A /* bai tap 1.c */; };
+		5B690BC82224E2A000739F70 /* ve hinh.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B690BC62224E2A000739F70 /* ve hinh.c */; };
+		5B69A0FE226E0F1D00E33636 /* baidemso.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B69A0FD226E0F1D00E33636 /* baidemso.c */; };
+		5B69A100226E14F600E33636 /* dem so phan tu trong mang.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B69A0FF226E14F600E33636 /* dem so phan tu trong mang.c */; };
+		5B69A102226E19B800E33636 /* mang 2 chieu.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B69A101226E19B800E33636 /* mang 2 chieu.c */; };
+		5B6D60462241EAE200BC404E /* tap con.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D60452241EAE200BC404E /* tap con.c */; };
+		5B6D6B0822A605C400B1A4BD /* bai 2013_2014.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D6B0722A605C400B1A4BD /* bai 2013_2014.c */; };
+		5B6DCE8422880B9800BD5933 /* xau ki tu.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B6DCE8222880B9800BD5933 /* xau ki tu.c */; };
+		5B6ED6D22362DC7A00DBB322 /* *bai_tap.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B6ED6D12362DC7A00DBB322 /* *bai_tap.c */; };
+		5B70F2D8224B95C7003175FA /* space.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B70F2D7224B95C7003175FA /* space.c */; };
+		5B71034F22A679310029E42C /* baitap 2012-2013.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B71034E22A679310029E42C /* baitap 2012-2013.c */; };
+		5B7388A023588827003977D3 /* tinhtongbieuthuc.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B73889F23588827003977D3 /* tinhtongbieuthuc.c */; };
+		5B7388A22358C952003977D3 /* queue_array.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B7388A12358C952003977D3 /* queue_array.c */; };
+		5B79492122A9596700AB544C /* de k54.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B79492022A9596700AB544C /* de k54.c */; };
+		5B82985C23338F08000B614E /* danh sach moc noi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B82985B23338F08000B614E /* danh sach moc noi.c */; };
+		5B85523E222A95A700E10237 /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B85523C222A95A700E10237 /* array.c */; };
+		5B855240222ABADD00E10237 /* pnt.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B85523F222ABADD00E10237 /* pnt.c */; };
+		5B8AFEDB239A3BD10029FE8B /* quick_sort_cai_tien.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B8AFEDA239A3BD10029FE8B /* quick_sort_cai_tien.c */; };
+		5B8AFEDD239A46460029FE8B /* merge_sort_cai_tien.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B8AFEDC239A46460029FE8B /* merge_sort_cai_tien.c */; };
+		5B907366221DAC4D005D4FE6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B907365221DAC4D005D4FE6 /* main.c */; };
+		5B9139B5223CA7E8000A1E3B /* hoan vi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B9139B4223CA7E8000A1E3B /* hoan vi.c */; };
+		5B93B029234F88D900B21E8F /* dao danh sach noi don.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B93B028234F88D900B21E8F /* dao danh sach noi don.c */; };
+		5B9E0B14229A42AF000C3612 /* bai tap_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E0B13229A42AF000C3612 /* bai tap_2.c */; };
+		5BA00C382245CF1E007CDD2C /* string1.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BA00C372245CF1E007CDD2C /* string1.c */; };
+		5BA10F7E23755B9500A2E0E2 /* cay_nhi_phan.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BA10F7D23755B9500A2E0E2 /* cay_nhi_phan.c */; };
+		5BA5C87822B734C200E2BA4C /* li thuyet 1.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BA5C87722B734C200E2BA4C /* li thuyet 1.c */; };
+		5BB67F592285B5970061674D /* cap phat dong.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BB67F582285B5970061674D /* cap phat dong.c */; };
+		5BB6B0B923A683F500FA6B53 /* cay_nhi_phan.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6B0B823A683F500FA6B53 /* cay_nhi_phan.c */; };
+		5BB7C85D2352262B0046CE0C /* danh sach doi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BB7C85C2352262B0046CE0C /* danh sach doi.c */; };
+		5BBA6F3C2363490300E33E45 /* bai_toan_doi_bong.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA6F3B2363490200E33E45 /* bai_toan_doi_bong.c */; };
+		5BBCA919224726F10026513B /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BBCA918224726F10026513B /* test.c */; };
+		5BBFEAAD227DC801006E8729 /* con tro.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFEAAB227DC801006E8729 /* con tro.c */; };
+		5BC06119228663A300AC5757 /* bai tap 9_12.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC06118228663A300AC5757 /* bai tap 9_12.c */; };
+		5BC0611B2286771D00AC5757 /* xau2.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0611A2286771D00AC5757 /* xau2.c */; };
+		5BC0611E2286D51500AC5757 /* bai tap 9_13.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0611C2286D51500AC5757 /* bai tap 9_13.c */; };
+		5BC061202286DA8A00AC5757 /* bai tap 9_14.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0611F2286DA8A00AC5757 /* bai tap 9_14.c */; };
+		5BC061222286DFB900AC5757 /* bai tap 9_15.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC061212286DFB900AC5757 /* bai tap 9_15.c */; };
+		5BC061242286E14500AC5757 /* bai tap 10_4.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC061232286E14500AC5757 /* bai tap 10_4.c */; };
+		5BC061262286ECC600AC5757 /* bai tap 10_5.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC061252286ECC600AC5757 /* bai tap 10_5.c */; };
+		5BC061282287135800AC5757 /* bai tap 10_6.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC061272287135800AC5757 /* bai tap 10_6.c */; };
+		5BC0612B228718C800AC5757 /* bai tap 10_7.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC06129228718C800AC5757 /* bai tap 10_7.c */; };
+		5BC0612E22871A4E00AC5757 /* bai tap 10_8.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0612C22871A4E00AC5757 /* bai tap 10_8.c */; };
+		5BC4CAFB232FC95100B5CDA7 /* tinh giai thua.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC4CAFA232FC95100B5CDA7 /* tinh giai thua.c */; };
+		5BC4CAFD232FCB6600B5CDA7 /* tinh so Fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC4CAFC232FCB6600B5CDA7 /* tinh so Fibonacci.c */; };
+		5BC4CAFF232FD0B300B5CDA7 /* tim kiem nhi phan.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC4CAFE232FD0B300B5CDA7 /* tim kiem nhi phan.c */; };
+		5BC6E2E322A755CF00F5811C /* bai tap 4.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BC6E2E222A755CF00F5811C /* bai tap 4.c */; };
+		5BCC2EBD227D39250030AE78 /* string_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BCC2EBC227D39250030AE78 /* string_1.c */; };
+		5BCF125C221FFF3900ADFCE2 /* scanf.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF125A221FFF3900ADFCE2 /* scanf.c */; };
+		5BCF66932357285A00CE8D9C /* *STACK with link.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF66922357285A00CE8D9C /* *STACK with link.c */; };
+		5BD69EC5237855840005790B /* test 4.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BD69EC4237855840005790B /* test 4.c */; };
+		5BD6F63F237E9D4600428DD4 /* *bai_tap_cay_nhi_phan.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6F63E237E9D4600428DD4 /* *bai_tap_cay_nhi_phan.c */; };
+		5BDBAEE12387CDAE0086D982 /* HEAP_SORT.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BDBAEE02387CDAE0086D982 /* HEAP_SORT.c */; };
+		5BE38CD3229AB34400A8A0E0 /* bai tap_3.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BE38CD2229AB34400A8A0E0 /* bai tap_3.c */; };
+		5BF6626F2330E88500679952 /* thap ha noi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BF6626E2330E88500679952 /* thap ha noi.c */; };
+		5BFCC89422AB462200A2358C /* bai_thi_cuoi_ki.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BFCC89322AB462200A2358C /* bai_thi_cuoi_ki.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B907360221DAC4D005D4FE6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B004D5C23AD173300E4DF9C /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		5B02668D238E70EC001A7CB2 /* dang_nhap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dang_nhap.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		5B031286237D734800E7024F /* sap_xep_chen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sap_xep_chen.c; sourceTree = "<group>"; };
+		5B04109623901EEE0076E326 /* bai_test_giua_ki.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bai_test_giua_ki.c; sourceTree = "<group>"; };
+		5B08FBD1239118E0006691EA /* Dau_vo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Dau_vo.c; sourceTree = "<group>"; };
+		5B08FBD3239126B9006691EA /* MAI_HOANG_MINH-20184151.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "MAI_HOANG_MINH-20184151.c"; sourceTree = "<group>"; };
+		5B0D33E823A37C70009ED34D /* Ham_Bam.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Ham_Bam.c; sourceTree = "<group>"; };
+		5B0D4E2522425F2E002606D5 /* string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = string.c; sourceTree = "<group>"; };
+		5B0D4E2722428688002606D5 /* delete space.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "delete space.c"; sourceTree = "<group>"; };
+		5B0D9DB423C819CD008260B8 /* tu_dien_20184151.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tu_dien_20184151.c; sourceTree = "<group>"; };
+		5B10116A22958DC2005201C9 /* bai tap 2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap 2.c"; sourceTree = "<group>"; };
+		5B135DB322463AF400C3063D /* string2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = string2.c; sourceTree = "<group>"; };
+		5B135DB5224684C000C3063D /* string3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = string3.c; sourceTree = "<group>"; };
+		5B16A40D2249029F00845489 /* test 2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "test 2.c"; sourceTree = "<group>"; };
+		5B18464F2249DA5D00EDAC02 /* bai giua ki.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai giua ki.c"; sourceTree = "<group>"; };
+		5B1B081023C5CE8B008EB64B /* dau_vo2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dau_vo2.c; sourceTree = "<group>"; };
+		5B1B081223C62B36008EB64B /* de_cuong.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = de_cuong.c; sourceTree = "<group>"; };
+		5B1DB8BB23B0FDF900319CAB /* Tu_dien_Anh_Viet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tu_dien_Anh_Viet.c; sourceTree = "<group>"; };
+		5B211B9323464165002C523D /* test2_file.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test2_file.c; sourceTree = "<group>"; };
+		5B211B95234644D5002C523D /* test 3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "test 3.c"; sourceTree = "<group>"; };
+		5B2A39F3234DE59300DAC659 /* danh sach noi don 2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "\U0010danh sach noi don 2.c"; sourceTree = "<group>"; };
+		5B388D2A22AA55080079E61D /* de2018.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = de2018.c; sourceTree = "<group>"; };
+		5B3CF9BF227E7AEE003640BD /* con tro 2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "con tro 2.c"; sourceTree = "<group>"; };
+		5B48CB022397F4DA00277F09 /* merge_sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = merge_sort.c; sourceTree = "<group>"; };
+		5B48CB04239803E400277F09 /* quick_sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quick_sort.c; sourceTree = "<group>"; };
+		5B4BEF5022A7B29200C7E8C0 /* bai tap bonus.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap bonus.c"; sourceTree = "<group>"; };
+		5B4DDE1923ADB08600944979 /* quan_li_ket_qua_bong_da.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quan_li_ket_qua_bong_da.c; sourceTree = "<group>"; };
+		5B50A58C2292B382005F275E /* tach ten.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "tach ten.c"; sourceTree = "<group>"; };
+		5B50A58E2292B7E8005F275E /* mang cac xau.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "mang cac xau.c"; sourceTree = "<group>"; };
+		5B50A5902292BA4C005F275E /* thay ki tu bang khoang trong.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "thay ki tu bang khoang trong.c"; sourceTree = "<group>"; };
+		5B50A5952292F053005F275E /* bai 1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai 1.c"; sourceTree = "<group>"; };
+		5B5222782357ECB100B914F0 /* *Stack_tinhbieuthuc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "*Stack_tinhbieuthuc.c"; sourceTree = "<group>"; };
+		5B5247C0224126CF001634F2 /* array and pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "array and pointer.c"; sourceTree = "<group>"; };
+		5B5258462345F66800882CA5 /* test_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_1.cpp; sourceTree = "<group>"; };
+		5B560D6923C4CC3D00066445 /* ban_hang.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ban_hang.c; sourceTree = "<group>"; };
+		5B570F842359BAE00020A1A5 /* tim_kiem_nhi_phan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tim_kiem_nhi_phan.c; sourceTree = "<group>"; };
+		5B5895B4237652080096656A /* cay_nhi_phan_cai_tien.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cay_nhi_phan_cai_tien.c; sourceTree = "<group>"; };
+		5B6051CD2245314C00CBABCB /* tam giac pascal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "tam giac pascal.c"; sourceTree = "<group>"; };
+		5B60BBF923A3D6E40037AE72 /* link_list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = link_list.c; sourceTree = "<group>"; };
+		5B643D6B226D3C67009CD9E6 /* bai tap cuoi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap cuoi.c"; sourceTree = "<group>"; };
+		5B647667229951AD0000D39A /* bai test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai test.c"; sourceTree = "<group>"; };
+		5B64766A22997BD40000D39A /* bai tap 1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap 1.c"; sourceTree = "<group>"; };
+		5B690BC62224E2A000739F70 /* ve hinh.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "ve hinh.c"; path = "Tuan 2/ve hinh.c"; sourceTree = "<group>"; };
+		5B69A0FD226E0F1D00E33636 /* baidemso.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = baidemso.c; sourceTree = "<group>"; };
+		5B69A0FF226E14F600E33636 /* dem so phan tu trong mang.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "dem so phan tu trong mang.c"; sourceTree = "<group>"; };
+		5B69A101226E19B800E33636 /* mang 2 chieu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "mang 2 chieu.c"; sourceTree = "<group>"; };
+		5B6D60452241EAE200BC404E /* tap con.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "tap con.c"; sourceTree = "<group>"; };
+		5B6D6B0722A605C400B1A4BD /* bai 2013_2014.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai 2013_2014.c"; sourceTree = "<group>"; };
+		5B6DCE8222880B9800BD5933 /* xau ki tu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "xau ki tu.c"; sourceTree = "<group>"; };
+		5B6ED6D12362DC7A00DBB322 /* *bai_tap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "*bai_tap.c"; sourceTree = "<group>"; };
+		5B70F2D7224B95C7003175FA /* space.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = space.c; sourceTree = "<group>"; };
+		5B71034E22A679310029E42C /* baitap 2012-2013.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "baitap 2012-2013.c"; sourceTree = "<group>"; };
+		5B73889F23588827003977D3 /* tinhtongbieuthuc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tinhtongbieuthuc.c; sourceTree = "<group>"; };
+		5B7388A12358C952003977D3 /* queue_array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queue_array.c; sourceTree = "<group>"; };
+		5B79492022A9596700AB544C /* de k54.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "de k54.c"; sourceTree = "<group>"; };
+		5B82985B23338F08000B614E /* danh sach moc noi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "danh sach moc noi.c"; sourceTree = "<group>"; };
+		5B85523C222A95A700E10237 /* array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = array.c; sourceTree = "<group>"; };
+		5B85523F222ABADD00E10237 /* pnt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pnt.c; sourceTree = "<group>"; };
+		5B8AFEDA239A3BD10029FE8B /* quick_sort_cai_tien.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quick_sort_cai_tien.c; sourceTree = "<group>"; };
+		5B8AFEDC239A46460029FE8B /* merge_sort_cai_tien.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = merge_sort_cai_tien.c; sourceTree = "<group>"; };
+		5B907362221DAC4D005D4FE6 /* MinhDev */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MinhDev; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B907365221DAC4D005D4FE6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5B9139B4223CA7E8000A1E3B /* hoan vi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "hoan vi.c"; sourceTree = "<group>"; };
+		5B93B028234F88D900B21E8F /* dao danh sach noi don.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "dao danh sach noi don.c"; sourceTree = "<group>"; };
+		5B9E0B13229A42AF000C3612 /* bai tap_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap_2.c"; sourceTree = "<group>"; };
+		5BA00C372245CF1E007CDD2C /* string1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = string1.c; sourceTree = "<group>"; };
+		5BA10F7D23755B9500A2E0E2 /* cay_nhi_phan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cay_nhi_phan.c; sourceTree = "<group>"; };
+		5BA5C87722B734C200E2BA4C /* li thuyet 1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "li thuyet 1.c"; sourceTree = "<group>"; };
+		5BB67F582285B5970061674D /* cap phat dong.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "cap phat dong.c"; sourceTree = "<group>"; };
+		5BB6B0B823A683F500FA6B53 /* cay_nhi_phan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cay_nhi_phan.c; sourceTree = "<group>"; };
+		5BB7C85C2352262B0046CE0C /* danh sach doi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "danh sach doi.c"; sourceTree = "<group>"; };
+		5BBA6F3B2363490200E33E45 /* bai_toan_doi_bong.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bai_toan_doi_bong.c; sourceTree = "<group>"; };
+		5BBCA918224726F10026513B /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		5BBFEAAB227DC801006E8729 /* con tro.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "con tro.c"; sourceTree = "<group>"; };
+		5BC06118228663A300AC5757 /* bai tap 9_12.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap 9_12.c"; sourceTree = "<group>"; };
+		5BC0611A2286771D00AC5757 /* xau2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xau2.c; sourceTree = "<group>"; };
+		5BC0611C2286D51500AC5757 /* bai tap 9_13.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap 9_13.c"; sourceTree = "<group>"; };
+		5BC0611F2286DA8A00AC5757 /* bai tap 9_14.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap 9_14.c"; sourceTree = "<group>"; };
+		5BC061212286DFB900AC5757 /* bai tap 9_15.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap 9_15.c"; sourceTree = "<group>"; };
+		5BC061232286E14500AC5757 /* bai tap 10_4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap 10_4.c"; sourceTree = "<group>"; };
+		5BC061252286ECC600AC5757 /* bai tap 10_5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap 10_5.c"; sourceTree = "<group>"; };
+		5BC061272287135800AC5757 /* bai tap 10_6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap 10_6.c"; sourceTree = "<group>"; };
+		5BC06129228718C800AC5757 /* bai tap 10_7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap 10_7.c"; sourceTree = "<group>"; };
+		5BC0612C22871A4E00AC5757 /* bai tap 10_8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap 10_8.c"; sourceTree = "<group>"; };
+		5BC4CAFA232FC95100B5CDA7 /* tinh giai thua.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "tinh giai thua.c"; sourceTree = "<group>"; };
+		5BC4CAFC232FCB6600B5CDA7 /* tinh so Fibonacci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "tinh so Fibonacci.c"; sourceTree = "<group>"; };
+		5BC4CAFE232FD0B300B5CDA7 /* tim kiem nhi phan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "tim kiem nhi phan.c"; sourceTree = "<group>"; };
+		5BC6E2E222A755CF00F5811C /* bai tap 4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap 4.c"; sourceTree = "<group>"; };
+		5BCC2EBC227D39250030AE78 /* string_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = string_1.c; sourceTree = "<group>"; };
+		5BCF125A221FFF3900ADFCE2 /* scanf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanf.c; sourceTree = "<group>"; };
+		5BCF66922357285A00CE8D9C /* *STACK with link.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "*STACK with link.c"; sourceTree = "<group>"; };
+		5BD69EC4237855840005790B /* test 4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "test 4.c"; sourceTree = "<group>"; };
+		5BD6F63E237E9D4600428DD4 /* *bai_tap_cay_nhi_phan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "*bai_tap_cay_nhi_phan.c"; sourceTree = "<group>"; };
+		5BDBAEE02387CDAE0086D982 /* HEAP_SORT.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HEAP_SORT.c; sourceTree = "<group>"; };
+		5BE38CD2229AB34400A8A0E0 /* bai tap_3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bai tap_3.c"; sourceTree = "<group>"; };
+		5BF6626E2330E88500679952 /* thap ha noi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "thap ha noi.c"; sourceTree = "<group>"; };
+		5BFCC89322AB462200A2358C /* bai_thi_cuoi_ki.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bai_thi_cuoi_ki.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B90735F221DAC4D005D4FE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B36D403232B6870006C7C62 /* 2_Nen */ = {
+			isa = PBXGroup;
+			children = (
+				5B60BBF823A3D5F40037AE72 /* Bai_mau_thi_HK */,
+				5BBA6F3A236348DD00E33E45 /* de_cac_nam */,
+				5B570F812359A43D0020A1A5 /* sap_xep_tim_kiem */,
+				5B5258452345F65200882CA5 /* test */,
+				5B82985A23338EDD000B614E /* Danh sach */,
+				5BC4CAF9232FC92A00B5CDA7 /* bai toan de quy */,
+			);
+			path = 2_Nen;
+			sourceTree = "<group>";
+		};
+		5B50A58B2292B372005F275E /* tuan 11 */ = {
+			isa = PBXGroup;
+			children = (
+				5BFCC89222AB45EB00A2358C /* bai thi cuoi ki */,
+				5B64766922997BC00000D39A /* bai tap cuoi ki */,
+				5B50A5942292F033005F275E /* bai tap ve struct */,
+				5B50A58C2292B382005F275E /* tach ten.c */,
+				5B50A5902292BA4C005F275E /* thay ki tu bang khoang trong.c */,
+				5B50A58E2292B7E8005F275E /* mang cac xau.c */,
+			);
+			name = "tuan 11";
+			sourceTree = "<group>";
+		};
+		5B50A5942292F033005F275E /* bai tap ve struct */ = {
+			isa = PBXGroup;
+			children = (
+				5B50A5952292F053005F275E /* bai 1.c */,
+				5B647667229951AD0000D39A /* bai test.c */,
+				5B10116A22958DC2005201C9 /* bai tap 2.c */,
+			);
+			name = "bai tap ve struct";
+			sourceTree = "<group>";
+		};
+		5B5258452345F65200882CA5 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				5B5258462345F66800882CA5 /* test_1.cpp */,
+				5B04109623901EEE0076E326 /* bai_test_giua_ki.c */,
+				5BD69EC4237855840005790B /* test 4.c */,
+				5B211B95234644D5002C523D /* test 3.c */,
+				5B211B9323464165002C523D /* test2_file.c */,
+				5B6ED6D12362DC7A00DBB322 /* *bai_tap.c */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		5B570F812359A43D0020A1A5 /* sap_xep_tim_kiem */ = {
+			isa = PBXGroup;
+			children = (
+				5B570F842359BAE00020A1A5 /* tim_kiem_nhi_phan.c */,
+				5B0D33E823A37C70009ED34D /* Ham_Bam.c */,
+				5B8AFEDA239A3BD10029FE8B /* quick_sort_cai_tien.c */,
+				5B8AFEDC239A46460029FE8B /* merge_sort_cai_tien.c */,
+				5B48CB022397F4DA00277F09 /* merge_sort.c */,
+				5B48CB04239803E400277F09 /* quick_sort.c */,
+				5BDBAEE02387CDAE0086D982 /* HEAP_SORT.c */,
+				5BD6F63E237E9D4600428DD4 /* *bai_tap_cay_nhi_phan.c */,
+				5B031286237D734800E7024F /* sap_xep_chen.c */,
+				5BA10F7D23755B9500A2E0E2 /* cay_nhi_phan.c */,
+				5B5895B4237652080096656A /* cay_nhi_phan_cai_tien.c */,
+			);
+			path = sap_xep_tim_kiem;
+			sourceTree = "<group>";
+		};
+		5B6051CC2245313400CBABCB /* tuan 5 */ = {
+			isa = PBXGroup;
+			children = (
+				5B6051CD2245314C00CBABCB /* tam giac pascal.c */,
+				5B135DB5224684C000C3063D /* string3.c */,
+				5BA00C372245CF1E007CDD2C /* string1.c */,
+				5B135DB322463AF400C3063D /* string2.c */,
+			);
+			name = "tuan 5";
+			sourceTree = "<group>";
+		};
+		5B60BBF823A3D5F40037AE72 /* Bai_mau_thi_HK */ = {
+			isa = PBXGroup;
+			children = (
+				5B60BBF923A3D6E40037AE72 /* link_list.c */,
+				5BB6B0B823A683F500FA6B53 /* cay_nhi_phan.c */,
+				5B004D5C23AD173300E4DF9C /* stack.c */,
+			);
+			path = Bai_mau_thi_HK;
+			sourceTree = "<group>";
+		};
+		5B643D6A226D3C4F009CD9E6 /* tuan. 7 */ = {
+			isa = PBXGroup;
+			children = (
+				5B643D6B226D3C67009CD9E6 /* bai tap cuoi.c */,
+				5B69A101226E19B800E33636 /* mang 2 chieu.c */,
+				5B69A0FF226E14F600E33636 /* dem so phan tu trong mang.c */,
+				5B69A0FD226E0F1D00E33636 /* baidemso.c */,
+			);
+			name = "tuan. 7";
+			sourceTree = "<group>";
+		};
+		5B64766922997BC00000D39A /* bai tap cuoi ki */ = {
+			isa = PBXGroup;
+			children = (
+				5B64766A22997BD40000D39A /* bai tap 1.c */,
+				5B388D2A22AA55080079E61D /* de2018.c */,
+				5B79492022A9596700AB544C /* de k54.c */,
+				5B4BEF5022A7B29200C7E8C0 /* bai tap bonus.c */,
+				5BC6E2E222A755CF00F5811C /* bai tap 4.c */,
+				5B71034E22A679310029E42C /* baitap 2012-2013.c */,
+				5B6D6B0722A605C400B1A4BD /* bai 2013_2014.c */,
+				5B9E0B13229A42AF000C3612 /* bai tap_2.c */,
+				5BE38CD2229AB34400A8A0E0 /* bai tap_3.c */,
+			);
+			name = "bai tap cuoi ki";
+			sourceTree = "<group>";
+		};
+		5B6D60442241EAC500BC404E /* tuan 4 */ = {
+			isa = PBXGroup;
+			children = (
+				5B6D60452241EAE200BC404E /* tap con.c */,
+				5B0D4E2722428688002606D5 /* delete space.c */,
+				5B0D4E2522425F2E002606D5 /* string.c */,
+			);
+			name = "tuan 4";
+			sourceTree = "<group>";
+		};
+		5B82985A23338EDD000B614E /* Danh sach */ = {
+			isa = PBXGroup;
+			children = (
+				5BB7C85C2352262B0046CE0C /* danh sach doi.c */,
+				5B7388A12358C952003977D3 /* queue_array.c */,
+				5B73889F23588827003977D3 /* tinhtongbieuthuc.c */,
+				5B5222782357ECB100B914F0 /* *Stack_tinhbieuthuc.c */,
+				5BCF66922357285A00CE8D9C /* *STACK with link.c */,
+				5B82985B23338F08000B614E /* danh sach moc noi.c */,
+				5B2A39F3234DE59300DAC659 /* danh sach noi don 2.c */,
+				5B93B028234F88D900B21E8F /* dao danh sach noi don.c */,
+			);
+			path = "Danh sach";
+			sourceTree = "<group>";
+		};
+		5B85523B222A958400E10237 /* tuan 3 */ = {
+			isa = PBXGroup;
+			children = (
+				5B85523C222A95A700E10237 /* array.c */,
+				5B85523F222ABADD00E10237 /* pnt.c */,
+				5B9139B4223CA7E8000A1E3B /* hoan vi.c */,
+				5B5247C0224126CF001634F2 /* array and pointer.c */,
+			);
+			name = "tuan 3";
+			sourceTree = "<group>";
+		};
+		5B907359221DAC4D005D4FE6 = {
+			isa = PBXGroup;
+			children = (
+				5B36D403232B6870006C7C62 /* 2_Nen */,
+				5B907364221DAC4D005D4FE6 /* 1 Nen */,
+				5B907363221DAC4D005D4FE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B907363221DAC4D005D4FE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B907362221DAC4D005D4FE6 /* MinhDev */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B907364221DAC4D005D4FE6 /* 1 Nen */ = {
+			isa = PBXGroup;
+			children = (
+				5BA5C87622B734AE00E2BA4C /* tuan 12 */,
+				5B50A58B2292B372005F275E /* tuan 11 */,
+				5BC061172286637F00AC5757 /* tuan 10 */,
+				5BB67F572285B5700061674D /* tuan 9 */,
+				5BCC2EBB227D38FF0030AE78 /* tuan 8 */,
+				5B643D6A226D3C4F009CD9E6 /* tuan. 7 */,
+				5BBCA917224726DC0026513B /* tuan 6 */,
+				5B6051CC2245313400CBABCB /* tuan 5 */,
+				5B6D60442241EAC500BC404E /* tuan 4 */,
+				5B85523B222A958400E10237 /* tuan 3 */,
+				5B907372221DAD72005D4FE6 /* Tuan 2 */,
+				5B907371221DAD67005D4FE6 /* Tuan 1 */,
+				5B690BC62224E2A000739F70 /* ve hinh.c */,
+			);
+			path = "1 Nen";
+			sourceTree = "<group>";
+		};
+		5B907371221DAD67005D4FE6 /* Tuan 1 */ = {
+			isa = PBXGroup;
+			children = (
+				5B907365221DAC4D005D4FE6 /* main.c */,
+			);
+			path = "Tuan 1";
+			sourceTree = "<group>";
+		};
+		5B907372221DAD72005D4FE6 /* Tuan 2 */ = {
+			isa = PBXGroup;
+			children = (
+				5BCF125A221FFF3900ADFCE2 /* scanf.c */,
+			);
+			path = "Tuan 2";
+			sourceTree = "<group>";
+		};
+		5BA5C87622B734AE00E2BA4C /* tuan 12 */ = {
+			isa = PBXGroup;
+			children = (
+				5BA5C87722B734C200E2BA4C /* li thuyet 1.c */,
+			);
+			name = "tuan 12";
+			sourceTree = "<group>";
+		};
+		5BB67F572285B5700061674D /* tuan 9 */ = {
+			isa = PBXGroup;
+			children = (
+				5BB67F582285B5970061674D /* cap phat dong.c */,
+			);
+			name = "tuan 9";
+			sourceTree = "<group>";
+		};
+		5BBA6F3A236348DD00E33E45 /* de_cac_nam */ = {
+			isa = PBXGroup;
+			children = (
+				5BBA6F3B2363490200E33E45 /* bai_toan_doi_bong.c */,
+				5B0D9DB423C819CD008260B8 /* tu_dien_20184151.c */,
+				5B1B081223C62B36008EB64B /* de_cuong.c */,
+				5B560D6923C4CC3D00066445 /* ban_hang.c */,
+				5B4DDE1923ADB08600944979 /* quan_li_ket_qua_bong_da.c */,
+				5B1DB8BB23B0FDF900319CAB /* Tu_dien_Anh_Viet.c */,
+				5B08FBD3239126B9006691EA /* MAI_HOANG_MINH-20184151.c */,
+				5B08FBD1239118E0006691EA /* Dau_vo.c */,
+				5B1B081023C5CE8B008EB64B /* dau_vo2.c */,
+				5B02668D238E70EC001A7CB2 /* dang_nhap.c */,
+			);
+			path = de_cac_nam;
+			sourceTree = "<group>";
+		};
+		5BBCA917224726DC0026513B /* tuan 6 */ = {
+			isa = PBXGroup;
+			children = (
+				5BBCA918224726F10026513B /* test.c */,
+				5B70F2D7224B95C7003175FA /* space.c */,
+				5B18464F2249DA5D00EDAC02 /* bai giua ki.c */,
+				5B16A40D2249029F00845489 /* test 2.c */,
+			);
+			name = "tuan 6";
+			sourceTree = "<group>";
+		};
+		5BC061172286637F00AC5757 /* tuan 10 */ = {
+			isa = PBXGroup;
+			children = (
+				5BC06118228663A300AC5757 /* bai tap 9_12.c */,
+				5B6DCE8222880B9800BD5933 /* xau ki tu.c */,
+				5BC061272287135800AC5757 /* bai tap 10_6.c */,
+				5BC0612C22871A4E00AC5757 /* bai tap 10_8.c */,
+				5BC06129228718C800AC5757 /* bai tap 10_7.c */,
+				5BC061232286E14500AC5757 /* bai tap 10_4.c */,
+				5BC061252286ECC600AC5757 /* bai tap 10_5.c */,
+				5BC061212286DFB900AC5757 /* bai tap 9_15.c */,
+				5BC0611F2286DA8A00AC5757 /* bai tap 9_14.c */,
+				5BC0611C2286D51500AC5757 /* bai tap 9_13.c */,
+				5BC0611A2286771D00AC5757 /* xau2.c */,
+			);
+			name = "tuan 10";
+			sourceTree = "<group>";
+		};
+		5BC4CAF9232FC92A00B5CDA7 /* bai toan de quy */ = {
+			isa = PBXGroup;
+			children = (
+				5BC4CAFA232FC95100B5CDA7 /* tinh giai thua.c */,
+				5BF6626E2330E88500679952 /* thap ha noi.c */,
+				5BC4CAFE232FD0B300B5CDA7 /* tim kiem nhi phan.c */,
+				5BC4CAFC232FCB6600B5CDA7 /* tinh so Fibonacci.c */,
+			);
+			path = "bai toan de quy";
+			sourceTree = "<group>";
+		};
+		5BCC2EBB227D38FF0030AE78 /* tuan 8 */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC2EBC227D39250030AE78 /* string_1.c */,
+				5BBFEAAB227DC801006E8729 /* con tro.c */,
+				5B3CF9BF227E7AEE003640BD /* con tro 2.c */,
+			);
+			name = "tuan 8";
+			sourceTree = "<group>";
+		};
+		5BFCC89222AB45EB00A2358C /* bai thi cuoi ki */ = {
+			isa = PBXGroup;
+			children = (
+				5BFCC89322AB462200A2358C /* bai_thi_cuoi_ki.c */,
+			);
+			name = "bai thi cuoi ki";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B907361221DAC4D005D4FE6 /* MinhDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B907369221DAC4D005D4FE6 /* Build configuration list for PBXNativeTarget "MinhDev" */;
+			buildPhases = (
+				5B90735E221DAC4D005D4FE6 /* Sources */,
+				5B90735F221DAC4D005D4FE6 /* Frameworks */,
+				5B907360221DAC4D005D4FE6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinhDev;
+			productName = MinhDev;
+			productReference = 5B907362221DAC4D005D4FE6 /* MinhDev */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B90735A221DAC4D005D4FE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Hoang Anh";
+				TargetAttributes = {
+					5B907361221DAC4D005D4FE6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5B90735D221DAC4D005D4FE6 /* Build configuration list for PBXProject "MinhDev" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B907359221DAC4D005D4FE6;
+			productRefGroup = 5B907363221DAC4D005D4FE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B907361221DAC4D005D4FE6 /* MinhDev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B90735E221DAC4D005D4FE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1B081123C5CE8B008EB64B /* dau_vo2.c in Sources */,
+				5B6D6B0822A605C400B1A4BD /* bai 2013_2014.c in Sources */,
+				5BD6F63F237E9D4600428DD4 /* *bai_tap_cay_nhi_phan.c in Sources */,
+				5BDBAEE12387CDAE0086D982 /* HEAP_SORT.c in Sources */,
+				5BBA6F3C2363490300E33E45 /* bai_toan_doi_bong.c in Sources */,
+				5B211B9423464165002C523D /* test2_file.c in Sources */,
+				5BC061282287135800AC5757 /* bai tap 10_6.c in Sources */,
+				5BC4CAFF232FD0B300B5CDA7 /* tim kiem nhi phan.c in Sources */,
+				5B643D6C226D3C67009CD9E6 /* bai tap cuoi.c in Sources */,
+				5B82985C23338F08000B614E /* danh sach moc noi.c in Sources */,
+				5B69A100226E14F600E33636 /* dem so phan tu trong mang.c in Sources */,
+				5B7388A22358C952003977D3 /* queue_array.c in Sources */,
+				5BC061262286ECC600AC5757 /* bai tap 10_5.c in Sources */,
+				5B3CF9C0227E7AEE003640BD /* con tro 2.c in Sources */,
+				5B64766B22997BD40000D39A /* bai tap 1.c in Sources */,
+				5BBCA919224726F10026513B /* test.c in Sources */,
+				5B647668229951AD0000D39A /* bai test.c in Sources */,
+				5BC0612B228718C800AC5757 /* bai tap 10_7.c in Sources */,
+				5B8AFEDB239A3BD10029FE8B /* quick_sort_cai_tien.c in Sources */,
+				5BA10F7E23755B9500A2E0E2 /* cay_nhi_phan.c in Sources */,
+				5B031287237D734800E7024F /* sap_xep_chen.c in Sources */,
+				5B10116B22958DC2005201C9 /* bai tap 2.c in Sources */,
+				5B0D4E2822428688002606D5 /* delete space.c in Sources */,
+				5BC061222286DFB900AC5757 /* bai tap 9_15.c in Sources */,
+				5B1B081323C62B36008EB64B /* de_cuong.c in Sources */,
+				5B04109723901EEE0076E326 /* bai_test_giua_ki.c in Sources */,
+				5B211B96234644D5002C523D /* test 3.c in Sources */,
+				5B388D2B22AA55080079E61D /* de2018.c in Sources */,
+				5B135DB422463AF400C3063D /* string2.c in Sources */,
+				5B907366221DAC4D005D4FE6 /* main.c in Sources */,
+				5B50A5912292BA4C005F275E /* thay ki tu bang khoang trong.c in Sources */,
+				5B50A58D2292B382005F275E /* tach ten.c in Sources */,
+				5B560D6A23C4CC3D00066445 /* ban_hang.c in Sources */,
+				5B004D5D23AD173300E4DF9C /* stack.c in Sources */,
+				5B08FBD4239126B9006691EA /* MAI_HOANG_MINH-20184151.c in Sources */,
+				5BCC2EBD227D39250030AE78 /* string_1.c in Sources */,
+				5B9139B5223CA7E8000A1E3B /* hoan vi.c in Sources */,
+				5B50A58F2292B7E8005F275E /* mang cac xau.c in Sources */,
+				5BC0611E2286D51500AC5757 /* bai tap 9_13.c in Sources */,
+				5B855240222ABADD00E10237 /* pnt.c in Sources */,
+				5B70F2D8224B95C7003175FA /* space.c in Sources */,
+				5B60BBFA23A3D6E40037AE72 /* link_list.c in Sources */,
+				5B6DCE8422880B9800BD5933 /* xau ki tu.c in Sources */,
+				5B93B029234F88D900B21E8F /* dao danh sach noi don.c in Sources */,
+				5B50A5962292F053005F275E /* bai 1.c in Sources */,
+				5B0D9DB523C819CD008260B8 /* tu_dien_20184151.c in Sources */,
+				5B4DDE1A23ADB08600944979 /* quan_li_ket_qua_bong_da.c in Sources */,
+				5B8AFEDD239A46460029FE8B /* merge_sort_cai_tien.c in Sources */,
+				5B5895B5237652080096656A /* cay_nhi_phan_cai_tien.c in Sources */,
+				5B1846502249DA5D00EDAC02 /* bai giua ki.c in Sources */,
+				5BCF66932357285A00CE8D9C /* *STACK with link.c in Sources */,
+				5B5222792357ECB100B914F0 /* *Stack_tinhbieuthuc.c in Sources */,
+				5B5247C1224126CF001634F2 /* array and pointer.c in Sources */,
+				5BB67F592285B5970061674D /* cap phat dong.c in Sources */,
+				5B02668E238E70EC001A7CB2 /* dang_nhap.c in Sources */,
+				5B71034F22A679310029E42C /* baitap 2012-2013.c in Sources */,
+				5B690BC82224E2A000739F70 /* ve hinh.c in Sources */,
+				5BC0612E22871A4E00AC5757 /* bai tap 10_8.c in Sources */,
+				5B9E0B14229A42AF000C3612 /* bai tap_2.c in Sources */,
+				5B69A102226E19B800E33636 /* mang 2 chieu.c in Sources */,
+				5B79492122A9596700AB544C /* de k54.c in Sources */,
+				5B570F852359BAE00020A1A5 /* tim_kiem_nhi_phan.c in Sources */,
+				5BC061242286E14500AC5757 /* bai tap 10_4.c in Sources */,
+				5B4BEF5122A7B29200C7E8C0 /* bai tap bonus.c in Sources */,
+				5B6ED6D22362DC7A00DBB322 /* *bai_tap.c in Sources */,
+				5B2A39F5234DE59300DAC659 /* danh sach noi don 2.c in Sources */,
+				5B48CB032397F4DA00277F09 /* merge_sort.c in Sources */,
+				5B0D33E923A37C70009ED34D /* Ham_Bam.c in Sources */,
+				5BF6626F2330E88500679952 /* thap ha noi.c in Sources */,
+				5BCF125C221FFF3900ADFCE2 /* scanf.c in Sources */,
+				5BB6B0B923A683F500FA6B53 /* cay_nhi_phan.c in Sources */,
+				5BBFEAAD227DC801006E8729 /* con tro.c in Sources */,
+				5BC06119228663A300AC5757 /* bai tap 9_12.c in Sources */,
+				5B0D4E2622425F2E002606D5 /* string.c in Sources */,
+				5B08FBD2239118E0006691EA /* Dau_vo.c in Sources */,
+				5B6051CE2245314C00CBABCB /* tam giac pascal.c in Sources */,
+				5BC0611B2286771D00AC5757 /* xau2.c in Sources */,
+				5BA5C87822B734C200E2BA4C /* li thuyet 1.c in Sources */,
+				5B16A40E2249029F00845489 /* test 2.c in Sources */,
+				5BC061202286DA8A00AC5757 /* bai tap 9_14.c in Sources */,
+				5B1DB8BC23B0FDF900319CAB /* Tu_dien_Anh_Viet.c in Sources */,
+				5B7388A023588827003977D3 /* tinhtongbieuthuc.c in Sources */,
+				5BB7C85D2352262B0046CE0C /* danh sach doi.c in Sources */,
+				5BD69EC5237855840005790B /* test 4.c in Sources */,
+				5BC6E2E322A755CF00F5811C /* bai tap 4.c in Sources */,
+				5B48CB05239803E400277F09 /* quick_sort.c in Sources */,
+				5BFCC89422AB462200A2358C /* bai_thi_cuoi_ki.c in Sources */,
+				5B85523E222A95A700E10237 /* array.c in Sources */,
+				5BA00C382245CF1E007CDD2C /* string1.c in Sources */,
+				5B135DB6224684C000C3063D /* string3.c in Sources */,
+				5B5258472345F66800882CA5 /* test_1.cpp in Sources */,
+				5B6D60462241EAE200BC404E /* tap con.c in Sources */,
+				5BC4CAFB232FC95100B5CDA7 /* tinh giai thua.c in Sources */,
+				5BE38CD3229AB34400A8A0E0 /* bai tap_3.c in Sources */,
+				5B69A0FE226E0F1D00E33636 /* baidemso.c in Sources */,
+				5BC4CAFD232FCB6600B5CDA7 /* tinh so Fibonacci.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5B907367221DAC4D005D4FE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5B907368221DAC4D005D4FE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5B90736A221DAC4D005D4FE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B90736B221DAC4D005D4FE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ONLY_ACTIVE_ARCH = NO;
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B90735D221DAC4D005D4FE6 /* Build configuration list for PBXProject "MinhDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B907367221DAC4D005D4FE6 /* Debug */,
+				5B907368221DAC4D005D4FE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B907369221DAC4D005D4FE6 /* Build configuration list for PBXNativeTarget "MinhDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B90736A221DAC4D005D4FE6 /* Debug */,
+				5B90736B221DAC4D005D4FE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B90735A221DAC4D005D4FE6 /* Project object */;
+}
