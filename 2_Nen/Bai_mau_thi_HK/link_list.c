@@ -121,6 +121,7 @@ int main(){
     node* head = NULL;
     Doc_file(&head);
     print_node(head);
+    printf("Toi la Minh\n");
 }
 
 
